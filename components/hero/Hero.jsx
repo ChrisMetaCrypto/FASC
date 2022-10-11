@@ -34,6 +34,7 @@ const Hero = () => (
     <div className="container m-auto pt-[160px] pb-[60px] md:pt-[200px] md:pb-[100px] lg:pt-[250px] lg:pb-[150px] xl:pt-[358px] xl:pb-[258px] z-[1] relative hero-content">
       <div className="w-10/12 sm:w-7/12 text-center m-auto">
         <div className="inline-flex flex-wrap justify-center items-center rounded-[30px] p-[10px] gap-1 sm:gap-5 bg-gradient">
+          <span> As seen on</span>
           <Link href="https://nftcalendar.io/">
           <Image src={hero5} alt="nft calendar" height={100} width={100} />
             
