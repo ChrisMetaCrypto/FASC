@@ -6,6 +6,8 @@ import hero2 from "../../public/images/hero/hero2.png";
 import hero3 from "../../public/images/hero/hero3.png";
 import hero4 from "../../public/images/hero/hero4.png";
 import hero5 from "../../public/images/hero/hero5.png";
+import hero5a from "../../public/images/hero/hero5a.png";
+
 import hero6 from "../../public/images/hero/hero6.png";
 
 const Hero = () => (
@@ -23,7 +25,7 @@ const Hero = () => (
       <Image src={hero4} objectFit="fill" alt="hero four" />
     </div>
     <div className="hero-frame-5 animate-pulse">
-      <Image src={hero5} objectFit="fill" alt="hero five" />
+      <Image src={hero5a} objectFit="fill" alt="hero five" />
     </div>
     <div className="hero-frame-6 animate-pulse">
       <Image src={hero6} objectFit="fill" alt="hero six" />
@@ -32,10 +34,10 @@ const Hero = () => (
     <div className="container m-auto pt-[160px] pb-[60px] md:pt-[200px] md:pb-[100px] lg:pt-[250px] lg:pb-[150px] xl:pt-[358px] xl:pb-[258px] z-[1] relative hero-content">
       <div className="w-10/12 sm:w-7/12 text-center m-auto">
         <div className="inline-flex flex-wrap justify-center items-center rounded-[30px] p-[10px] gap-1 sm:gap-5 bg-gradient">
-          <Link href="/">
-            <a className="flex items-center rounded-[20px] btn-gradient text-medium py-[10px] px-[25px]">
-              Minting Soon!
-            </a>
+          <Link href="https://nftcalendar.io/">
+          <Image src={hero5} alt="nft calendar" height={100} width={100} />
+            
+           
           </Link>
 
           {/* <p className="leading-[23px]">
