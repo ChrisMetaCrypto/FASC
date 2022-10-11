@@ -7,6 +7,7 @@ import hero3 from "../../public/images/hero/hero3.png";
 import hero4 from "../../public/images/hero/hero4.png";
 import hero5 from "../../public/images/hero/hero5.png";
 import hero5a from "../../public/images/hero/hero5a.png";
+import herob from "../../public/images/hero/nftlogo2.png";
 
 import hero6 from "../../public/images/hero/hero6.png";
 
@@ -37,10 +38,10 @@ const Hero = () => (
           <span> As seen on</span>
           <Link href="https://nftcalendar.io/">
           <Image src={hero5} alt="nft calendar" height={100} width={100} />
-            
-           
           </Link>
-
+          <Link href="https://nftiming.com/nft/fast-ape-speed-club/">
+          <Image src={herob} alt="nft iming" height={70} width={100} />
+          </Link>
           {/* <p className="leading-[23px]">
             Super rare item recommendation from us!
           </p> */}
