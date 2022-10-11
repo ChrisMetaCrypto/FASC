@@ -45,7 +45,7 @@ const NavBar = () => {
             {/* Social icons */}
             <Social />
             {/* button */}
-            <Link href="/">
+            <Link href="https://opensea.io/">
               <a className="btn__primary btn-gradient">View on OpenSea</a>
             </Link>
           </div>

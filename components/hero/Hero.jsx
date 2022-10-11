@@ -59,13 +59,13 @@ const Hero = () => (
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-          <Link href="/">
+          <Link href="https://opensea.io/">
             <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
               View on OpenSea
               <FaArrowRight />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="https://discord.com/">
             <a className="btn__primary gap-[10px] border-round-gradient">
               <span className="w-[24px] h-[24px] flex items-center justify-center rounded-full bg-[#5C6AC0]">
                 <FaDiscord />
