@@ -2,7 +2,7 @@ const roadmapData = [
     {
         id: 1,
         title: 'Community Build',
-        desc: 'Building the community through socail media outlets including Twitter and Discord.',
+        desc: 'Building the community through social media outlets including Twitter and Discord.',
     },
     {
         id: 2,
