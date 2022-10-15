@@ -1,15 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight, FaDiscord } from "react-icons/fa";
-import hero1 from "../../public/images/hero/hero1.png";
-import hero2 from "../../public/images/hero/hero2.png";
-import hero3 from "../../public/images/hero/hero3.png";
-import hero4 from "../../public/images/hero/hero4.png";
-import hero5 from "../../public/images/hero/hero5.png";
-import hero5a from "../../public/images/hero/hero5a.png";
-import herob from "../../public/images/hero/nftlogo2.png";
+import hero1 from "../../public/images/hero/hero1-min.png";
+import hero2 from "../../public/images/hero/hero2-min.png";
+import hero3 from "../../public/images/hero/hero3-min.png";
+import hero4 from "../../public/images/hero/hero4-min.png";
+import hero5 from "../../public/images/hero/hero5.webp";
+import hero5a from "../../public/images/hero/hero5a-min.png";
+import herob from "../../public/images/hero/nftlogo2-min.png";
 
-import hero6 from "../../public/images/hero/hero6.png";
+import hero6 from "../../public/images/hero/hero6-min.png";
 
 const Hero = () => (
   <section className="hero" id="hero">
@@ -37,7 +37,8 @@ const Hero = () => (
         <div className="inline-flex flex-wrap justify-center items-center rounded-[30px] p-[10px] gap-1 sm:gap-5 bg-gradient">
           <span> As seen on</span>
           <Link href="https://nftcalendar.io/">
-          <Image src={hero5} alt="nft calendar" height={100} width={100} />
+          <Image src={hero5} alt="nft calendar" 
+         height={70} width={100}  />
           </Link>
           <Link href="https://nftiming.com/nft/fast-ape-speed-club/">
           <Image src={herob} alt="nft iming" height={70} width={100} />
