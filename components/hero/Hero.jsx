@@ -60,7 +60,7 @@ const Hero = () => (
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-          <Link href="https://opensea.io/">
+          <Link href="https://opensea.io/collection/fast-ape-speed-club-v2">
             <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
               View on OpenSea
               <FaArrowRight />
