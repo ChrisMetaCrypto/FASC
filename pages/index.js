@@ -8,6 +8,9 @@ import Gallery from "../components/gallery/Gallery";
 import Header from "../components/header/Header";
 import Team from "../components/team/Team";
 import Timeline from "../components/timeline/Timeline";
+import Mint from "../components/mint/Mint";
+import { IframeHTMLAttributes } from "react";
+import Script from "next/script";
 
 const Home = () => (
   <div>

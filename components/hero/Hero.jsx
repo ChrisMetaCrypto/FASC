@@ -40,7 +40,7 @@ const Hero = () => (
           <Image src={hero5} alt="nft calendar" 
          height={70} width={100}  />
           </Link>
-          <Link href="https://nftiming.com/nft/fast-ape-speed-club/">
+          <Link href="/mint.html">
           <Image src={herob} alt="nft iming" height={70} width={100} />
           </Link>
           {/* <p className="leading-[23px]">
