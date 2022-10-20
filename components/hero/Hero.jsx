@@ -61,7 +61,7 @@ const Hero = () => (
               <FaArrowRight />
             </a>
           </Link>
-          <Link href="https://discord.com/">
+          <Link href="https://discord.gg/BcUtGEKYAz">
             <a className="btn__primary gap-[10px] border-round-gradient">
               <span className="w-[24px] h-[24px] flex items-center justify-center rounded-full bg-[#5C6AC0]">
                 <FaDiscord />

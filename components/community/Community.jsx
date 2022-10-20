@@ -17,7 +17,7 @@ const Community = () => (
         </p>
 
         <div className="inline-block mt-[35px]">
-          <Link href="/">
+          <Link href="https://discord.gg/BcUtGEKYAz">
             <a className="btn__primary btn-gradient gap-2">
               Discord
               <FaArrowRight />
