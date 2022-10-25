@@ -13,7 +13,7 @@ const Community = () => (
           <span> Community</span>
         </Heading2>
         <p className="mt-[10px]">
-         We are going to be setting up the Discord Server soon, keep an eye on our Twiter
+        Discord is now open
         </p>
 
         <div className="inline-block mt-[35px]">

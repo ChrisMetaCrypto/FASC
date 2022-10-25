@@ -11,24 +11,10 @@ const roadmapData = [
     },
     {
         id: 3,
-        title: 'Giveaway',
-        desc: 'Give aways for our loyal community members.',
+        title: 'Staking',
+        desc: 'Holders will be able to stake their FASCs to earn rewards.',
     },
-    {
-        id: 4,
-        title: 'TBC',
-        desc: 'What the community wants, the community will get.',
-    },
-    {
-        id: 5,
-        title: 'TBC',
-        desc: 'What the community wants, the community will get.',
-    },
-    {
-        id: 6,
-        title: 'TBC',
-        desc: 'What the community wants, the community will get.',
-    },
+   
 ];
 
 export default roadmapData;

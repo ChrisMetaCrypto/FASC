@@ -35,9 +35,9 @@ const Hero = () => (
     <div className="container m-auto pt-[160px] pb-[60px] md:pt-[200px] md:pb-[100px] lg:pt-[250px] lg:pb-[150px] xl:pt-[358px] xl:pb-[258px] z-[1] relative hero-content">
       <div className="w-10/12 sm:w-7/12 text-center m-auto">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-      <Link href="https://sites.google.com/fastapespeedclub.com/mint/home">
+      <Link href="/">
             <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
-             Mint Now
+             Minting Nov 15
               <FaArrowRight />
             </a>
           </Link>
@@ -51,13 +51,13 @@ const Hero = () => (
         </h1>
 
         <p className="mt-5">
-          FASC is a collection of 3836 unique avatars on the Ethererum Blockchain
+          FASC is a collection of 3836 unique avatars on the Solana Blockchain
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-          <Link href="https://opensea.io/collection/fast-ape-speed-club-v2">
+          <Link href="https://magiceden.io/">
             <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
-              View on OpenSea
+              View on Magic Eden
               <FaArrowRight />
             </a>
           </Link>
