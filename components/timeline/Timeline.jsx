@@ -7,14 +7,13 @@ const Timeline = () => (
   <section className="mt-[60px] lg:mt-[110px] xl:mt-[235px] mx-4" id="roadmap">
     <div className="container m-auto">
       <div className="text-center w-full sm:w-7/12 m-auto">
-        <Heading3>Tihe story so far</Heading3>
+        <Heading3>The story so far</Heading3>
         <Heading2>
           <span> Roadmap</span>
         </Heading2>
 
         <p className="mt-[5px]">
-          We have some great ideas and lots of utilities in mind, but this is only the beginning. We are going build our project around our community, so if you have great ideas we
-          are all ears
+          We have some great ideas and lots of utilities in mind, but this is only the beginning. We are going build our project around our community.
         </p>
       </div>
 

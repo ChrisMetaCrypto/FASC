@@ -6,8 +6,7 @@ const Count = () => (
       {[
         { id: 1, num: 3836, title: "Total Items" },
         { id: 2, num: 0, title: "Total Owners" },
-        { id: 3, num: 0, title: "Mint Price ( ETH) First 1000" },
-        { id: 3, num: 0.004, title: "Mint Price ( ETH)" },
+        { id: 3, num: 0.15, title: "Mint Price (SOL)" },
       ].map((item) => (
         <CounterCard key={item.id} item={item} />
       ))}
