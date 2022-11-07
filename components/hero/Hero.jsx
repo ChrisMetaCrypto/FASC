@@ -35,14 +35,14 @@ const Hero = () => (
     <div className="container m-auto pt-[160px] pb-[60px] md:pt-[200px] md:pb-[100px] lg:pt-[250px] lg:pb-[150px] xl:pt-[358px] xl:pb-[258px] z-[1] relative hero-content">
       <div className="w-10/12 sm:w-7/12 text-center m-auto">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-      <Link href="/">
-            <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
-             Minting Nov 15
-              <FaArrowRight />
-            </a>
+      <p className="mt-5">
+         Minting Nov 15 as seen on
+        </p>
+      <Link href="https://nftcalendar.io/">
+      <Image src={hero5} objectFit="fill" alt="hero six" height={100} width={100}  />
           </Link>
+        
           </div>
-
         <h1 className="heading-1 mt-3">
           Fast Ape Speed Club{" "}
           <span className="text-[color:var(--color-secondary)]">
