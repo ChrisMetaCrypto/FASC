@@ -9,6 +9,7 @@ const NavItems = ({ cls, setOpen, open }) => {
         ["Team", "#team"],
         ["Community", "#community"],
         ["FAQ", "#faq"],
+        ["Mint", "https://mint.fastapespeedclub.com"],
       ].map(([title, url]) => (
         <li
           onClick={() => setOpen(!open)}
