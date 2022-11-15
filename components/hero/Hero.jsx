@@ -36,7 +36,7 @@ const Hero = () => (
       <div className="w-10/12 sm:w-7/12 text-center m-auto">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
       <p className="mt-5">
-         Minting Nov 15 as seen on
+         Minting Now as seen on
         </p>
       <Link href="https://nftcalendar.io/">
       <Image src={hero5} objectFit="fill" alt="hero six" height={100} width={100}  />
@@ -55,7 +55,7 @@ const Hero = () => (
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-[10px] sm:gap-[30px] mt-[35px]">
-          <Link href="https://magiceden.io/">
+          <Link href="https://magiceden.io/marketplace/fast_ape_speed_club/">
             <a className="btn__primary btn-gradient gap-[10px] border border-transparent">
               View on Magic Eden
               <FaArrowRight />

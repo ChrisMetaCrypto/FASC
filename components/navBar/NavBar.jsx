@@ -45,7 +45,7 @@ const NavBar = () => {
             {/* Social icons */}
             <Social />
             {/* button */}
-            <Link href="https://magiceden.io/">
+            <Link href="https://magiceden.io/marketplace/fast_ape_speed_club/">
               <a className="btn__primary btn-gradient">View on ME</a>
             </Link>
           </div>
